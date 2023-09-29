@@ -46,4 +46,15 @@ public class Login {
 		 System.out.println("New Changes");
 	 }
 
+	 @When("Verify assetType label")
+	  public void verify_assetType_label1(DataTable label) {
+	    List<String> assettype = label.asList();
+	   System.out.println(assettype.get(0));
+	   System.out.println(assettype.get(1));
+	   System.out.println(assettype.get(2));
+	   System.out.println(assettype.get(3));
+	   System.out.println(assettype.get(4));
+	   
+	  }
+
 }
