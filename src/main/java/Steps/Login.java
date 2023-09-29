@@ -42,6 +42,9 @@ public class Login {
 	   
 	  }
 	 
+	 public void m1() {
+		 System.out.println("New Changes");
+	 }
 
 	 @When("Verify assetType label")
 	  public void verify_assetType_label1(DataTable label) {
